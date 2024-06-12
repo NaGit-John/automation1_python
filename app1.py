@@ -7,14 +7,11 @@ import tkinter
 # ウィンドウ（フレーム）の作成
 root = tkinter.Tk()
 
-# ウィンドウの名前を設定
-root.title("demo_Tkinter")
+root.title("coper自動入力")
 
-# ウィンドウの大きさを設定
 root.geometry("400x400")
 
-# ラベルの作成
-label = tkinter.Label(root, text="This is the Label.")
+label = tkinter.Label(root, text="a")
 
 #ラベルの表示
 label.grid()
