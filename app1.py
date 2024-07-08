@@ -16,9 +16,10 @@ label = tkinter.Label(root, text="a")
 #ラベルの表示
 label.grid()
 
-# イベントループ（TK上のイベントを捕捉し、適切な処理を呼び出すイベントディスパッチャ）
-root.mainloop()
-
 buttonFrame = tkinter.Frame(root)
 button = tkinter.Button(buttonFrame, text="Load Image", command=root.load_image, width=10)
 button.grid(column=0, row=0)
+
+# イベントループ（TK上のイベントを捕捉し、適切な処理を呼び出すイベントディスパッチャ）
+root.mainloop()
+
