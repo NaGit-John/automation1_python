@@ -7,7 +7,7 @@ import tkinter
 # ウィンドウ（フレーム）の作成
 root = tkinter.Tk()
 
-root.title("coper自動入力")
+root.title("自動入力")
 
 root.geometry("400x400")
 
